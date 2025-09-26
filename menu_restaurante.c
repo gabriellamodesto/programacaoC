@@ -77,7 +77,7 @@ int main(){
             }
 
             if (opcao >= 1 && opcao <= 8){ // aqui, o programa irá entender que se as escolhas forem entre 1 e 8, há itens a serem guardados na memória.
-                printf("Deseja pedir mais alguma coisa? (1 para Sim, 0 para Nao): ");
+                printf("Deseja pedir mais alguma coisa? (1 para Sim, 0 para Não): ");
                 scanf("%d", &continuar_pedido);
                 while (continuar_pedido !=1 && continuar_pedido != 0){ // condição while para colocar apenas dois valores válidos no continuar_pedido
                     printf("Opção inválida. Por favor, digite 1 para continuar ou 0 para encerrar: ");
